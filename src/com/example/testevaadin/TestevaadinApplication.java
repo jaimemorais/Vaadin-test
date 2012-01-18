@@ -3,7 +3,7 @@ package com.example.testevaadin;
 import com.vaadin.Application;
 import com.vaadin.ui.*;
 
-/*teste*/
+/*teste 2*/
 public class TestevaadinApplication extends Application {
 	@Override
 	public void init() {

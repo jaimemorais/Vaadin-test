@@ -9,12 +9,12 @@
 	</context-param>
 	<servlet>
 		<servlet-name>Testevaadin Application</servlet-name>
-		<servlet-class>com.vaadin.terminal.gwt.server.GAEApplicationServlet</servlet-class>
+		<servlet-class>com.vaadin.terminal.gwt.server.ApplicationServlet</servlet-class>
 		<init-param>
 			<description>
 			Vaadin application class to start</description>
 			<param-name>application</param-name>
-			<param-value>com.example.testevaadin.TestevaadinApplication</param-value>
+			<param-value>com.example.testevaadin.application.Main</param-value>
 		</init-param>
 		<init-param>
 			<description>

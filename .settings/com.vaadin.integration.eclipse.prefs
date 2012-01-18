@@ -1,6 +1,7 @@
-#Wed Jan 18 14:16:25 BRST 2012
+#Wed Jan 18 14:48:53 BRST 2012
 com.vaadin.integration.eclipse.projectTypeGae=true
 com.vaadin.integration.eclipse.useLatestNightly=false
+com.vaadin.integration.eclipse.widgetsetBuildsSuspended=true
 com.vaadin.integration.eclipse.widgetsetCompilationEta=54290
-com.vaadin.integration.eclipse.widgetsetDirty=true
+com.vaadin.integration.eclipse.widgetsetDirty=false
 eclipse.preferences.version=1

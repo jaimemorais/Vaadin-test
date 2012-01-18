@@ -1,0 +1,5 @@
+#Wed Jan 18 13:41:05 BRST 2012
+com.vaadin.integration.eclipse.projectTypeGae=true
+com.vaadin.integration.eclipse.useLatestNightly=false
+com.vaadin.integration.eclipse.widgetsetDirty=false
+eclipse.preferences.version=1

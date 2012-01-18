@@ -5,6 +5,7 @@ import com.vaadin.ui.*;
 
 /*teste 2*/
 public class TestevaadinApplication extends Application {
+	
 	@Override
 	public void init() {
 		Window mainWindow = new Window("Testevaadin Application");

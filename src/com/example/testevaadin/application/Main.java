@@ -1,13 +1,13 @@
 package com.example.testevaadin.application;
 
 import com.example.testevaadin.controller.AbrirContaController;
-import com.example.testevaadin.controller.AbrirContaUC;
 import com.example.testevaadin.controller.ConsultarSaldoController;
-import com.example.testevaadin.controller.ConsultarSaldoUC;
 import com.example.testevaadin.infra.Controller;
 import com.example.testevaadin.infra.View;
 import com.example.testevaadin.infra.ViewManager;
 import com.example.testevaadin.infra.WindowUtils;
+import com.example.testevaadin.model.AbrirContaDAO;
+import com.example.testevaadin.model.ConsultarSaldoDAO;
 import com.vaadin.Application;
 import com.vaadin.ui.Button;
 import com.vaadin.ui.Button.ClickEvent;
@@ -35,8 +35,8 @@ public class Main extends Application implements ViewManager {
 	
 	
         // controllers
-        private Controller abrirContaController = new AbrirContaController(new AbrirContaUC());
-        private Controller consultarSaldoController = new ConsultarSaldoController(new ConsultarSaldoUC());
+        private Controller abrirContaController = new AbrirContaController(new AbrirContaDAO());
+        private Controller consultarSaldoController = new ConsultarSaldoController(new ConsultarSaldoDAO());
         
         // components
         private Window mainWindow = new Window("Vaadin MVC");

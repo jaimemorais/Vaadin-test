@@ -2,13 +2,14 @@ package com.example.testevaadin.controller;
 
 import com.example.testevaadin.infra.Controller;
 import com.example.testevaadin.infra.ViewManager;
+import com.example.testevaadin.model.ConsultarSaldoDAO;
 import com.example.testevaadin.view.ConsultarSaldoView;
 
 public class ConsultarSaldoController extends Controller {
     
-    private ConsultarSaldoUC uc;
+    private ConsultarSaldoDAO uc;
     
-    public ConsultarSaldoController(ConsultarSaldoUC uc) {
+    public ConsultarSaldoController(ConsultarSaldoDAO uc) {
             this.uc = uc;
     }
     

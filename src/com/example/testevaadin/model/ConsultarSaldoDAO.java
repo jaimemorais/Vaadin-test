@@ -1,6 +1,6 @@
-package com.example.testevaadin.controller;
+package com.example.testevaadin.model;
 
-public class ConsultarSaldoUC {
+public class ConsultarSaldoDAO {
 
     public Float consulteSaldo(Long numeroConta) {
         return 100.12f;

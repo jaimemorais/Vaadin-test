@@ -22,6 +22,9 @@ import com.vaadin.ui.Window;
 @SuppressWarnings("serial")
 public class Main extends Application implements ViewManager {
         
+	/*
+	 * http://rafaelnaskar.blogspot.com/2010/11/usando-vaadin-com-mvc.html
+	 */
 	
 	/*
 	 * Atencao , para rodar local, alterar no web.xml
@@ -31,6 +34,7 @@ public class Main extends Application implements ViewManager {
 		para 
 		
 		<servlet-class>com.vaadin.terminal.gwt.server.ApplicationServlet</servlet-class>
+		
 	 */
 	
 	

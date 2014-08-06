@@ -201,7 +201,7 @@ public class Main extends Application implements ViewManager {
         
         private Component crieAcoes() {
                 HorizontalLayout hl = new HorizontalLayout();
-                hl.addComponent(crieAcao("Abrir Conta", abrirContaController));
+                hl.addComponent(crieAcao("Abrir Conta - teste", abrirContaController));
                 hl.addComponent(crieAcao("Consultar Saldo", consultarSaldoController));
                 hl.addComponent(crieAcao("Incluir Vendedor", cadastroVendedorController));
                 return hl;
